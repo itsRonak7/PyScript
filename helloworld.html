@@ -1,10 +1,22 @@
 <html>	
-	<head>
-		<title> Hello World</title>
-		<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-		<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-	</head>
-	<body>
-		<py-script> print('Hello World') </py-script>
-	</body>
+<head>
+<title> Hello World</title>
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+<py-script> 
+def main():
+	x,y =8,4
+	
+	if(x < y):
+		st= "x is less than y"
+	else:
+		st= "x is greater than y"
+	print (st)
+	
+if __name__ == "__main__":
+	main()
+</py-script>
+</body>
 </html>
